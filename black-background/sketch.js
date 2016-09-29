@@ -33,6 +33,7 @@ function ThingTwo(xPos,yPos) {
 
 function setup() {
   canvas = createCanvas(window.innerWidth,window.innerHeight);
+	smooth();
   fill(0,0);
   stroke(255);
 	smallestScr = min(width,height);
